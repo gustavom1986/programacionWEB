@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 Javascript - Gustavo Montell    </title>
+</head>
+<body>
+<script>
+const distancia = prompt('Ingrese la distancia en metros:', '');
+if ( distancia > 0 && distancia <= 1000) {
+    document.write(`Para una distancia de ${distancia} metros se recomienda viajar a PIE`);
+ } 
+
+if (distancia > 1000 && distancia <= 10000) {
+    document.write(`Para una distancia de ${distancia} metros se recomienda viajar en BICICLETA`);
+ }
+ if (distancia > 10000 && distancia <= 30000) {
+    document.write(`Para una distancia de ${distancia} metros se recomienda viajar en COLECTIVO`);
+ }
+ if (distancia > 30000 && distancia <= 100000) {
+    document.write(`Para una distancia de ${distancia} metros se recomienda viajar en AUTO`);
+ }
+ if (100000 < distancia) {
+    document.write(`Para una distancia de ${distancia} metros se recomienda viajar en AVION`);
+ }
+</script>
+    
+
+</body>
+</html>
