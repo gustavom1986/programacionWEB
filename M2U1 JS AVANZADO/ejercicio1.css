@@ -1,0 +1,34 @@
+body{
+background-color: white;    
+}
+
+
+#caja1 {
+    /** afecta al div del tipo caja */
+    background-color: rgb(169, 196, 21);
+    width: 50px;
+    height: 30px;
+    padding: 15px;
+    /** separacion del texto a la caja, o margen */
+    border: 2px solid black;
+}
+
+#caja2 {
+    /** afecta al div del tipo caja */
+    background-color: rgb(33, 31, 43);
+    width: 50px;
+    height: 30px;
+    padding: 15px;
+    /** separacion del texto a la caja, o margen */
+    border: 2px solid black;
+}
+
+#caja3 {
+    /** afecta al div del tipo caja */
+    background-color: rgb(163, 13, 26);
+    width: 50px;
+    height: 30px;
+    padding: 15px;
+    /** separacion del texto a la caja, o margen */
+    border: 2px solid black;
+}
