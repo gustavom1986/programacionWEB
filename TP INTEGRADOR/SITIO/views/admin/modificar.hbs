@@ -1,0 +1,25 @@
+<div class="container" style="margin:100px 0">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Modificar Testimonio</h4>
+            <form action="/admin/testimonios/modificar" method="post">
+                <input type="hidden" value="{{testimonio.id}}" name="id">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre"
+                        value="{{testimonio.nombre}}">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Ciudad" name="ciudad"
+                        value="{{testimonio.ciudad}}">
+                </div>
+                <div class="form-group">
+                    <textarea name="cuerpo" class="form-control">{{testimonio.cuerpo}}" </textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+            {{#if error}}
+        <p>{{message}}</p>
+        {{/if}}
+        </div>
+    </div>
+</div>
